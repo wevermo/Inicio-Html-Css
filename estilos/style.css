@@ -5,6 +5,10 @@
     --cor-secundaria: white;
     --cor-terciaria: black;
 
+    --fontePrimaria: 'lato', sans-serif;
+    --fonteSecundaria: 'Open sans', sans-serif;
+    --fonteTerciaria: 'Roboto', sans-serif;
+
 }
 
 *{
@@ -13,9 +17,9 @@
 }
 body{
     box-sizing: border-box;
-    background-color: rgb(225, 225, 234);
+    background-color: var(--cor-primaria);
     background-image: url(./tech\ background.jpg);
-    color: black;
+    color: var(--cor-terciaria);
     margin: 0%;
 }
 .header{
@@ -26,8 +30,8 @@ body{
     gap: 40px;
 }
 .anc{
-    font-family: 'open sans', sans-serif;
-    font-size: 20px;
+    font-family: var(--fonteSecundaria);
+    font-size: 1.50rem;
     font-weight: 800;
     color: blue;
     text-decoration: none;
@@ -70,7 +74,7 @@ body{
     gap: 20px;
 }
 .h1{
-    font-size: 30px;
+    font-size: 2.15rem;
     font-family: 'Roboto', sans-serif;
     color: rgb(9, 165, 185);
 }
@@ -79,7 +83,7 @@ body{
     text-decoration-color: black;
 }
 .paragrafo{
-    font-size: 18px;
+    font-size: 1.10rem;
     font-family: 'open-sans', sans-serif;
     font-weight: 350;
     color: rgb(255, 255, 255);
@@ -127,12 +131,15 @@ img{
     max-height: 350px;
     border-radius: 5%;
   }
+  .imagem{
+    
+  }
   .footer{
     padding: 6px;
     color: black;
     background-color: rgb(15, 15, 242);
     text-align: center;
     font-family: 'lato', sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 800;
   }
