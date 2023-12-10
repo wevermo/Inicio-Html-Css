@@ -67,8 +67,7 @@ body{
     gap: 10px;
 }
 .secao{
-    width: 700px;
-    height: 320px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -111,8 +110,8 @@ body{
     border-radius: 6px;
     text-decoration: none;
     background-color: rgb(10, 84, 231); 
-    padding: 10px;
-    width: 75px;
+    padding: 5px;
+    width: 25%;
 }
 .ancora:hover{
     background-color: #0322ac;
@@ -131,7 +130,10 @@ img{
     max-height: 350px;
     border-radius: 5%;
   }
-  .imagem{
+  .imageem{
+    width: 50%;
+    border: solid #6269f5 5px;
+    border-radius: 5%;
     
   }
   .footer{
