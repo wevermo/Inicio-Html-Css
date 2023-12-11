@@ -145,3 +145,21 @@ img{
     font-size: 1.5rem;
     font-weight: 800;
   }
+
+ @media(max-width: 1200px){
+    .header{
+        padding: 6% ;
+    }
+    .nav{
+        justify-content: center;
+    }
+    .main01{
+        flex-direction: column-reverse;
+    }
+    .main01dados{
+        flex-direction: column-reverse;
+    }
+    .main01front{
+        flex-direction: column-reverse;
+    }
+ }
