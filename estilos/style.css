@@ -162,4 +162,14 @@ img{
     .main01front{
         flex-direction: column-reverse;
     }
+    .paragrafo{
+
+        padding: auto;
+    }
+    .secao{
+        width: auto;
+    }
+    .secaodados{
+        width: auto;
+    }
  }
